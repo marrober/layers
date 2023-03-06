@@ -231,7 +231,7 @@ const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitT
 
 
 
-console.log("Listening on port : " + port);
+console.log("Listening on port :- " + port);
 app.listen(port, () => console.log("phase: setup", "Listening on port " + port));
 
 function sendNextRequest(cb) {
